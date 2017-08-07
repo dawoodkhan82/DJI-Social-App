@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iqj-bn-gQq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="emN-qz-XNm">
+            <objects>
+                <viewController id="iqj-bn-gQq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jXX-b0-wCQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="hSe-6w-NfR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Zj-xo-hgg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DJI Logo" translatesAutoresizingMaskIntoConstraints="NO" id="ZXQ-MN-odp">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DJI Social" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tu-oo-qhr">
+                                <rect key="frame" x="90" y="419" width="194" height="64"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZXQ-MN-odp" firstAttribute="leading" secondItem="2Zj-xo-hgg" secondAttribute="leadingMargin" constant="51" id="MGa-Hx-lUa"/>
+                            <constraint firstItem="ZXQ-MN-odp" firstAttribute="top" secondItem="jXX-b0-wCQ" secondAttribute="bottom" constant="249" id="TYP-L5-AZW"/>
+                            <constraint firstItem="6tu-oo-qhr" firstAttribute="centerX" secondItem="ZXQ-MN-odp" secondAttribute="centerX" id="j74-lD-tyX"/>
+                            <constraint firstItem="6tu-oo-qhr" firstAttribute="top" secondItem="ZXQ-MN-odp" secondAttribute="bottom" constant="22" id="o4q-5P-x1c"/>
+                            <constraint firstItem="ZXQ-MN-odp" firstAttribute="centerX" secondItem="2Zj-xo-hgg" secondAttribute="centerX" id="poh-7e-Xes"/>
+                            <constraint firstItem="6tu-oo-qhr" firstAttribute="leading" secondItem="2Zj-xo-hgg" secondAttribute="leadingMargin" constant="74" id="qQA-dZ-dHr"/>
+                            <constraint firstItem="ZXQ-MN-odp" firstAttribute="centerY" secondItem="2Zj-xo-hgg" secondAttribute="centerY" id="x3X-Qm-0Sx"/>
+                            <constraint firstItem="hSe-6w-NfR" firstAttribute="top" secondItem="6tu-oo-qhr" secondAttribute="bottom" constant="184" id="zP7-FG-KnA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pma-U4-v0N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="621.60000000000002" y="211.84407796101951"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DJI Logo" width="1000" height="576"/>
+    </resources>
+</document>
